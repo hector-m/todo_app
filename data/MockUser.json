@@ -1,0 +1,35 @@
+{
+    "user": "Hector Morales",
+    "tasks": {
+        "001": {
+            "id": "001",
+            "body": "Send Project File",
+            "project": "Work",
+            "start": "Sat Jan 05 2019 08:45:00 GMT-0500 (EST)",
+            "reminder": true
+        },
+        "002": {
+            "id": "002",
+            "body": "Do Excercise",
+            "project": "Personal",
+            "start": "Sat Jan 05 2019 17:00:00 GMT-0500 (EST)",
+            "reminder": false
+        },
+        "003": {
+            "id": "003",
+            "body": "Go to church",
+            "project": "Personal",
+            "start": "Sun Jan 06 2019 09:00:00 GMT-0500 (EST)",
+            "reminder": false
+        }
+    },
+    "projects": {
+        "Work": {
+            "tasks": ["001"]
+        },
+        "Personal": {
+            "tasks": ["002", "003"]
+        }
+    },
+    "reminders": ["001"]
+}
